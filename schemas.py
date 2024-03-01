@@ -104,13 +104,13 @@ class UserCompany(BaseModel):
 class UserFilmCreate(BaseModel):
     role: UserFilmRole
     user: UserCreate
-    company: FilmCreate
+    film: FilmCreate
 
 
 class UserFilmUpdate(BaseModel):
     role: Optional[UserFilmRole] = None
     user: Optional[UserUpdate] = None
-    company: Optional[FilmUpdate] = None
+    film: Optional[FilmUpdate] = None
 
 
 class UserFilm(BaseModel):
