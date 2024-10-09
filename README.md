@@ -6,16 +6,17 @@
     - last_name (str)
     - email (str)
     - minimun_fee (int)
-    - films
 
-2. title (str)
+2. films
+   - title (str)
    - description (str)
    - budget (int)
    - release_year (int)
    - genres (list[str])
    - companies
 
-3. name (str)
+3. companies 
+   - name (str)
    - contact_email_address (str)
    - phone_number (str)
    
